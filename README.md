@@ -1,1 +1,1 @@
-# SyteLineSQLInterrogator
+# SyteLine SQL Interrogator
