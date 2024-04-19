@@ -1,0 +1,6 @@
+Column Name	Schema	Table Name	Data Type	System Data Type	Length	Decimal Position	Default Value	Is Nullable	Primary Key	Key Sequence	Definition	Is Computed	Column Id
+ExecutionDate	dbo	ue_PCC_SQLInterrogatorLog	CurrentDateType	datetime			getdate()	NO	0			0	8
+ExecutedBy	dbo	ue_PCC_SQLInterrogatorLog	UsernameType	nvarchar	128		suser_sname()	NO	0			0	9
+ExecutedCmd	dbo	ue_PCC_SQLInterrogatorLog	nvarchar	nvarchar	-1			NO	0			0	10
+CmdType	dbo	ue_PCC_SQLInterrogatorLog	nvarchar	nvarchar	20			NO	0			0	11
+TicketNumber	dbo	ue_PCC_SQLInterrogatorLog	nvarchar	nvarchar	20			YES	0			0	12
